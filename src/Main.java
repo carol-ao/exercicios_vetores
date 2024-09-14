@@ -12,21 +12,28 @@ public class Main {
 
        printArray(numbers);
 
+        //1)
         findMyNumber(numbers);
 
+        //2)
         findLargestNumber(numbers);
 
+        //4)
         System.out.println("os números do vetor em ordem crescente são:");
         printArray(putInAscendingOrder(numbers));
 
+        //5)
         System.out.println("os números do vetor em ordem decrescente são:");
         printArray(putInDescendingOrder(numbers));
 
+        //6)
         printInfoAboutAverage(numbers);
 
+        //7)
         System.out.println("O vetor composto por dois vetores é:");
         printArray(mergeArrays(numbers, numbers2));
 
+        //9
         System.out.println("A mediana do primeiro vetor é: "+ findMedian(numbers));
 
     }
